@@ -1,0 +1,169 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --primary-color: #ebe130;
+}
+
+html{
+    font-size: 62.5%;
+    font: 400 62.5% 'Inter', sans-serif;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+p, a {
+    color: inherit;      
+}
+
+h1{
+    font-size: 4.8rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3.2rem;
+}
+nav a{
+    color: inherit;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.wrapperCoyteiner-dark{
+
+    background-color: #2a2a2a;
+    color: white;
+}
+
+.btn{
+    background-color: #ebe130;
+    border-radius: 2px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1.rem;
+
+}
+
+.wrapperContainer{
+    padding-top: 10px;
+}
+
+.wrapperContainer-ligth{
+    background-color: #fafafa;
+}
+
+.wrapperContainer-dark2{
+    background-color: #003464;
+    color: #fafafa;
+}
+
+.container{
+    max-width: 127.6rem;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+     color: var(--primary-color);
+}
+
+.header_nav a {
+    padding: 1rem;
+    border: solid 1px;
+    text-decoration: none;
+}
+
+.header_nav ul {
+    display: flex;
+    gap: .5rem;
+    list-style-type: none;
+}
+
+.header_nav a:hover{
+    background-color: black;
+}
+
+img {
+    display: block;
+}
+
+.wapperCOintainer-hero{
+    background-color: #e1db60;
+}
+.heroBanner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.heroBanner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+.cursos{
+    text-align: center;
+
+}
+
+
+.wrapperContainercurso_card{
+    font-size: 2.0rem;
+}
+
+.curso_card p{
+font-size: 1.8rem;
+line-height: 1.6rem ;
+}
+
+    .cursos_card_content{
+        padding: 1rem;
+    }
+
+    .escola {
+        display: flex;
+        gap: 3rem;
+        text-align: justify;
+        padding-top: 6rem;
+    }
+    
+    .escola h2{
+        font-size: 3.rem;
+        margin-top: 3rem;
+    }
+    .escola p{
+        font-size: 1.8rem;
+        line-height: 1.60rem;
+    }
+
+    .contatos_address{
+        text-align: right;
+        font: normal 400 1.8rem "Inter", sans-serif;
+        margin: 3rem 0;
+    }
+
+    .footer{
+        font-size: 1.6rem;
+        text-align: center;
+        padding: 4.5rem;
+    }
